@@ -6,7 +6,11 @@
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@notionhq/client": "2.2.5",
+    "dayjs": "1.11.7"
   },
   "devDependencies": {
     "@tsconfig/node18": "2.0.0",
