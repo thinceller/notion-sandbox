@@ -1,0 +1,11 @@
+{
+  "name": "notion-sandbox",
+  "version": "1.0.0",
+  "description": "My Notion sandbox",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
