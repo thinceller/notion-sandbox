@@ -18,7 +18,9 @@ jobs:
           node-version-file: '.node-version'
           cache: 'pnpm'
       - name: Update Daily Note
-        run: pnpm run start
+        run: |
+          pnpm install
+          pnpm run start
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DAILY_NOTE_DATABASE_ID: ${{ secrets.NOTION_DAILY_NOTE_DATABASE_ID }}
