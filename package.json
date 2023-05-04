@@ -5,6 +5,7 @@
   "private": true,
   "license": "UNLICENSED",
   "type": "module",
+  "packageManager": "pnpm@8.4.0",
   "scripts": {
     "start": "tsx src/index.ts"
   },

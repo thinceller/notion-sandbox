@@ -1,0 +1,24 @@
+name: Update Daily Note
+
+on:
+  schedule:
+    # 0am JST
+    # https://crontab.guru/
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version-file: '.node-version'
+          cache: 'pnpm'
+      - name: Update Daily Note
+        run: pnpm run start
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DAILY_NOTE_DATABASE_ID: ${{ secrets.NOTION_DAILY_NOTE_DATABASE_ID }}
