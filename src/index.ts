@@ -1,12 +1,15 @@
 import { Client } from "@notionhq/client";
 import dayjs from "dayjs";
-import "dayjs/locale/ja";
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
 
-dayjs.locale("ja");
+dayjs.extend(utc);
+dayjs.extend(timezone);
+dayjs.tz.setDefault("Asia/Tokyo");
 
 const dailyNoteDatabaseId = process.env["NOTION_DAILY_NOTE_DATABASE_ID"] as string;
-const currentDate = dayjs().format("YYYY-MM-DD");
-const previousDate = dayjs().subtract(1, "day").format("YYYY-MM-DD");
+const currentDate = dayjs().tz().format("YYYY-MM-DD");
+const previousDate = dayjs().tz().subtract(1, "day").format("YYYY-MM-DD");
 
 /**
  * initialize notion client
