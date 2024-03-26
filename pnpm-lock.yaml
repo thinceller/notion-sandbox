@@ -13,8 +13,8 @@ devDependencies:
     specifier: 2.0.0
     version: 2.0.0
   '@tsconfig/strictest':
-    specifier: 2.0.1
-    version: 2.0.1
+    specifier: 2.0.4
+    version: 2.0.4
   '@types/node':
     specifier: 18.16.3
     version: 18.16.3
@@ -260,8 +260,8 @@ packages:
     resolution: {integrity: sha512-uI/B0ShkiEwTk036pncXucVlj4y11EW6mycQvCEzC1PkR2TBvdQZ5Wf96dp+XXWAc70FEDfvwTqanoaDpP6rPw==}
     dev: true
 
-  /@tsconfig/strictest@2.0.1:
-    resolution: {integrity: sha512-7JHHCbyCsGUxLd0pDbp24yz3zjxw2t673W5oAP6HCEdr/UUhaRhYd3SSnUsGCk+VnPVJVA4mXROzbhI+nyIk+w==}
+  /@tsconfig/strictest@2.0.4:
+    resolution: {integrity: sha512-/VKO/oufDOvAE48KGzZOEXFBKtR3PnGlb4cJoRtw3Ax5tYwaWnaNgyTJDviIbvjlnn82WMfTNvhegFkj5Xt2UA==}
     dev: true
 
   /@types/node-fetch@2.6.3:
