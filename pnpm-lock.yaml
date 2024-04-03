@@ -10,8 +10,8 @@ dependencies:
 
 devDependencies:
   '@tsconfig/node18':
-    specifier: 2.0.0
-    version: 2.0.0
+    specifier: 18.2.4
+    version: 18.2.4
   '@tsconfig/strictest':
     specifier: 2.0.1
     version: 2.0.1
@@ -256,8 +256,8 @@ packages:
       - encoding
     dev: false
 
-  /@tsconfig/node18@2.0.0:
-    resolution: {integrity: sha512-uI/B0ShkiEwTk036pncXucVlj4y11EW6mycQvCEzC1PkR2TBvdQZ5Wf96dp+XXWAc70FEDfvwTqanoaDpP6rPw==}
+  /@tsconfig/node18@18.2.4:
+    resolution: {integrity: sha512-5xxU8vVs9/FNcvm3gE07fPbn9tl6tqGGWA9tSlwsUEkBxtRnTsNmwrV8gasZ9F/EobaSv9+nu8AxUKccw77JpQ==}
     dev: true
 
   /@tsconfig/strictest@2.0.1:
