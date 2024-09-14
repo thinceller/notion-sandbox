@@ -10,7 +10,7 @@
     "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@notionhq/client": "2.2.5",
+    "@notionhq/client": "2.2.15",
     "dayjs": "1.11.7"
   },
   "devDependencies": {
