@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@notionhq/client':
-    specifier: 2.2.5
-    version: 2.2.5
+    specifier: 2.3.0
+    version: 2.3.0
   dayjs:
     specifier: 1.11.7
     version: 1.11.7
@@ -246,8 +246,8 @@ packages:
     dev: true
     optional: true
 
-  /@notionhq/client@2.2.5:
-    resolution: {integrity: sha512-NobSaeSK0DMuxAIy2pg53Iv850tGFxXYEYacFBQgO634L1uwQv7WQCAdeFQpD3kJiEycQfSYv6RGC5VENEXjiQ==}
+  /@notionhq/client@2.3.0:
+    resolution: {integrity: sha512-l7WqTCpQqC+HibkB9chghONQTYcxNQT0/rOJemBfmuKQRTu2vuV8B3yA395iKaUdDo7HI+0KvQaz9687Xskzkw==}
     engines: {node: '>=12'}
     dependencies:
       '@types/node-fetch': 2.6.3
