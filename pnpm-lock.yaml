@@ -9,9 +9,9 @@ dependencies:
     version: 1.11.7
 
 devDependencies:
-  '@tsconfig/node18':
-    specifier: 2.0.0
-    version: 2.0.0
+  '@tsconfig/node20':
+    specifier: 20.1.0
+    version: 20.1.0
   '@tsconfig/strictest':
     specifier: 2.0.1
     version: 2.0.1
@@ -256,8 +256,8 @@ packages:
       - encoding
     dev: false
 
-  /@tsconfig/node18@2.0.0:
-    resolution: {integrity: sha512-uI/B0ShkiEwTk036pncXucVlj4y11EW6mycQvCEzC1PkR2TBvdQZ5Wf96dp+XXWAc70FEDfvwTqanoaDpP6rPw==}
+  /@tsconfig/node20@20.1.0:
+    resolution: {integrity: sha512-7Yz1xDv3sot8+NwiYA8wkx60qr3Tr+soJwlqVQSkiEqqgYoNmMmqSPiYs1vMmTxneB3igHAD11dGOR2+BShzTA==}
     dev: true
 
   /@tsconfig/strictest@2.0.1:
