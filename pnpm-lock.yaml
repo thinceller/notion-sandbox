@@ -5,8 +5,8 @@ dependencies:
     specifier: 2.2.5
     version: 2.2.5
   dayjs:
-    specifier: 1.11.7
-    version: 1.11.7
+    specifier: 1.11.23
+    version: 1.11.23
 
 devDependencies:
   '@tsconfig/node18':
@@ -289,8 +289,8 @@ packages:
       delayed-stream: 1.0.0
     dev: false
 
-  /dayjs@1.11.7:
-    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
+  /dayjs@1.11.23:
+    resolution: {integrity: sha512-QDTCU0M0MxR3hQfnlDJfwekQiaanm1ubOD231u73WBckQ/fsamwRLiE2GBz6D3a/xF1NgfiDLJjXBa1hYOYTtQ==}
     dev: false
 
   /delayed-stream@1.0.0:
